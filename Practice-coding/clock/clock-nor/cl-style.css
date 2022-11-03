@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+.container,
+.clock-container,
+.alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+  min-height: 100vh;
+  background-color: #3498db;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 100px 100px;
+  border-radius: 25px;
+  outline: none;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.container .alarm.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.container .alarm {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: solid 3px #e0e0e0;
+}
+
+.container .alarm .set-alarm {
+  padding: 40px 20px;
+}
+
+select {
+  padding: 20px;
+  border: solid 3px #000;
+  border-radius: 15px;
+  font-size: 24px;
+}
+
+.container button {
+  background-color: #4a98f7;
+  margin-top: 20px;
+  width: 80%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding: 17px 0;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+/* .clock-container {
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 440px;
+}
+
+.clock-container h1 {
+  font-size: 40px;
+}
+
+.alarm {
+  background-color: aqua;
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
+/* button {
+  position: absolute;
+  left: 25%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(198, 72, 198);
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+} */
